@@ -1,6 +1,6 @@
 all:
-	gcc exploit.c -o exploit
+	gcc spectre.c -o spectre
 clean:
-	rm exploit
+	rm spectre
 run: all
-	./exploit
+	./spectre
